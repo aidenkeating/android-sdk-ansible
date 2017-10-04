@@ -1,0 +1,6 @@
+- name: Install Android SDK
+  hosts: localhost
+  roles:
+  - { role: install-android-sdk }
+  # vars_files:
+  # - vars/main.yml
